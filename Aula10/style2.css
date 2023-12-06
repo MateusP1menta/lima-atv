@@ -1,0 +1,14 @@
+
+    #cabeçalho {
+        text-align:center;
+        color:aqua;
+        background-image:url(basquete.jfif);
+        background-size:100% 100%;
+       background-repeat: no-repeat;
+    }
+
+    body{
+        background-image:url(inseto.png);
+        background-size:cover;
+       background-repeat: no-repeat;  
+    }

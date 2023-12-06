@@ -1,0 +1,14 @@
+button{
+    background-color: rgb(25, 0, 255);
+    display:inline-block;
+    place-items: center;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 0px;
+    padding: 17px 40px;
+}
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    box-shadow: red;
+}

@@ -1,0 +1,17 @@
+p {font-size: 12pt;}
+p::first-line{color:blue;font-variant: small-caps;}
+h1::before{content:url(smile.gif);}
+h1::after{content:url(smile.gif);}
+#img::before{content:url(smile.gif);}
+#img::after{content: url(smile.gif);}
+#texto::selection{
+    color: red;
+    background: yellow;
+}
+div{
+    background-image: url(smile.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+

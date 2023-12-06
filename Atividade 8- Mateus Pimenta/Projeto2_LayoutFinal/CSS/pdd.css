@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+body{
+    background-image: linear-gradient(blueviolet 50%, aqua);
+    height:766px;
+}
+.imagem1{
+    margin-left: 50px;
+}
+.font{
+    font-family: milonga;
+    font-size: 30px;
+}
+.aln{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: -20px;
+}
+.sub{
+    color: white;
+    margin-top: -60px;
+}
+.aln1{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.aln2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 80px;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.h3{
+    font-family: milonga;
+    border-radius: 50px;
+    background-color: aqua;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gap{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.linha{
+    border: 1px solid aqua;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.linha2{
+    border: 1px solid purple;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -10px;
+}
+.aln5{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 230px;
+    margin-left: 200px;
+    margin-top: 80px;;
+}
+#h4{
+    font-size: 30px;
+    font-family: milonga;
+    margin-top: 60px;
+}
+.quabranco{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 500px;
+    top: 400px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -380PX;
+    margin-top: 40px;
+}
+#p{
+    border: 5px solid pink;
+    background-color: pink;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+.quabranco1{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 700px;
+    top: 400px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20PX;
+    margin-top: -210px;
+}
+#p1{
+    border: 5px solid gray;
+    background-color: gray;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+
+.quabranco2{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 890px;
+    top: 400px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400PX;
+    margin-top: -202px;
+}
+#p2{
+    border: 5px solid pink;
+    background-color: pink;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+.promo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: milonga;
+    font-size: 30px;
+}
+
+
+.star-five {
+    margin: 3.125em 0;
+    position: relative;
+    display: block;
+    width: 0em;
+    height: 0em;
+    border-right: 6.25em solid transparent;
+    border-bottom: 4.3em solid rgb(255, 174, 81);
+    border-left: 6.25em solid transparent;
+    transform: rotate(35deg);
+   }
+   .star-five:before {
+    border-bottom: 5em solid rgb(255, 174, 81);
+    border-left: 2em solid transparent;
+    border-right: 1.875em solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+   }
+   .star-five:after {
+    position: absolute;
+    display: block;
+    top: 3px;
+    left: -105px;
+    width: 0;
+    height: 0;
+    border-right: 6.25em solid transparent;
+    border-bottom: 4.3em solid rgb(255, 174, 81);
+    border-left: 5.95em solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+   }

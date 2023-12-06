@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+body{
+    background-image: linear-gradient(blueviolet 50%, aqua);
+    height:766px;
+}
+.imagem1{
+    margin-left: 50px;
+}
+.font{
+    font-family: milonga;
+    font-size: 30px;
+}
+.aln{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: -20px;
+}
+.sub{
+    color: white;
+    margin-top: -60px;
+}
+.aln1{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.aln2{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 80px;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.h3{
+    font-family: milonga;
+    border-radius: 50px;
+    background-color: aqua;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gap{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.linha{
+    border: 1px solid aqua;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.circulo{
+    position: absolute;
+    top: 300px;
+    margin-left: 450px;
+    width: 350px;
+    height: 350px;
+    background-image: linear-gradient(rgb(242, 255, 5), rgba(183, 200, 0, 0.381));
+    border-radius: 1000px;
+    z-index: -2;
+}
+.circulo2{
+    position: absolute;
+    top: 550px;
+    margin-left: 1225px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(rgba(196, 0, 193, 0.763),rgba(0, 255, 242, 0.851));
+    border-radius: 1000px;
+    z-index: -2;
+}
+.circulo3{
+    position: absolute;
+    top: 500px;
+    margin-left: 800px;
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(rgb(242, 255, 5), rgba(183, 200, 0, 0.381));
+    border-radius: 1000px;
+    z-index: -2;
+}
+.circulo4{
+    position: absolute;
+    top: 300px;
+    margin-left: 1025px;
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(rgba(196, 0, 193, 0.763),rgba(0, 255, 242, 0.851));
+    border-radius: 1000px;
+    z-index: -2;
+}
+.font2{
+    font-family: milonga;
+    font-size: 15px;
+    color: white;
+    margin-left: 230px;
+}
+.linha2{
+    border: 1px solid purple;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -10px;
+}
+.aln5{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 230px;
+    margin-left: 200px;
+    margin-top: 0px;;
+}
+#h4{
+    font-size: 30px;
+    font-family: milonga;
+    margin-top: 60px;
+}
+.aln11{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: -480px;
+    margin-left: -1000px;
+    gap: 5px;
+}
+#h11{
+    font-family: milonga;
+    font-size: 13px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#tti{
+    font-family: milonga;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.quabranco{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 500px;
+    top: 270px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -380PX;
+    margin-top: 40px;
+}
+#p{
+    border: 5px solid pink;
+    background-color: pink;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+.quabranco1{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 700px;
+    top: 270px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20PX;
+    margin-top: -210px;
+}
+#p1{
+    border: 5px solid gray;
+    background-color: gray;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+
+.quabranco2{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 890px;
+    top: 270px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400PX;
+    margin-top: -202px;
+}
+#p2{
+    border: 5px solid pink;
+    background-color: pink;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+.quabranco3{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 500px;
+    top: 500px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -380PX;
+    margin-top: 28px;
+}
+#p3{
+    border: 5px solid gray;
+    background-color: gray;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+.quabranco4{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 700px;
+    top: 500px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25PX;
+    margin-top: -202px;
+}
+#p4{
+    border: 5px solid gray;
+    background-color: gray;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}
+.quabranco5{
+    position: absolute;
+    border-radius: 20px;
+    margin-left: 890px;
+    top: 500px;
+    width: 130px;
+    height: 160px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+    z-index: -1;
+}
+.preço5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400PX;
+    margin-top: -202px;
+}
+#p5{
+    border: 5px solid pink;
+    background-color: pink;
+    width: 70px;
+    height: 20px;
+    font-family: milonga;
+}

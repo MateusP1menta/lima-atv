@@ -1,0 +1,17 @@
+.vertical-menu{
+    width: 200px;
+}
+.vertical-menu a{
+    background-color: aquamarine;
+    color: black;
+    display: block;
+    pad: 12px;
+    text-decoration: none;
+}
+.vertical-menu a:hover{
+    background-color: cadetblue;
+}
+.vertical-menu a.active{
+    background-color: blanchedalmond;
+    color: darkgrey;
+}

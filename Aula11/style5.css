@@ -1,0 +1,39 @@
+img.esquerda{
+    float: left;
+    margin-right: 1.5cm;
+    height: 5cm;
+}
+img.direita{
+    float: right;
+    margin-left: 1.5cm;
+    height: 5cm;
+}
+img.center{
+    float: right;
+    margin-right: 15.0cm;
+    position: relative;
+}
+h1.semflutuacao{
+    clear: both;
+    text-align: center;
+    color: lime;
+    background-color: blueviolet;
+    padding: 10px 30px 5px 10px;
+    border: double blue;
+}
+p.esq{
+    text-align: left;
+    clear: both;
+    color: lime;
+    background-color: blueviolet;
+    padding: 10px 30px 5px 10px;
+    border: double blue;
+}
+p.dir{
+    text-align: right;
+    clear: both;
+    color: lime;
+    background-color: blueviolet;
+    padding: 10px 30px 5px 10px;
+    border: double blue;
+}

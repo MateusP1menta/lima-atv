@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(26, 26, 26);
+    border: 5px outset rgb(255, 0, 0);
+    background-size: cover;
+    height: 1000px;
+}
+img {
+    width: 200px;
+    height: 250px;
+    border: 2px outset rgb(228, 143, 143);
+}
+.h1{
+    color: rgb(255, 255, 170);
+    text-align: center;
+}
+.img :first-child{
+    margin-left: 100px;
+}
+.img1{
+    margin-right: 65px;
+}
+.h1m{
+    color: rgb(255, 255, 170);
+    text-align: center;
+}
+.h2m{
+    color: rgb(255, 255, 170);
+    text-align: center;
+}
+.border{
+    height: 50%;
+    width: 50%;
+    border: 5px outset rgb(255, 255, 255);
+    margin-left: 360px;
+}
+img:hover{
+    border: 5px solid white;
+}

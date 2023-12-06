@@ -1,0 +1,14 @@
+.quadrado{
+    position: absolute;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 30px 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-top: 20%;
+    margin-left: 42%;
+}
+body{
+    background-image: url(../café-expresso.png);
+    background-size: cover;
+    text-align: center;
+}

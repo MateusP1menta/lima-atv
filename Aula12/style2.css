@@ -1,0 +1,85 @@
+.vertical-menu{
+    width: 250px;
+    left: 0%;margin-left: 15%;
+}
+.vertical-menu a{
+    background-color: aquamarine;
+    color: black;
+    display: block;
+    pad: 12px;
+    text-decoration: none;
+}
+.vertical-menu a:hover{
+    background-color: cadetblue;
+}
+.vertical-menu a.active{
+    background-color: blanchedalmond;
+    color: darkgrey;
+}
+.dropbtn{
+    background-color: rgb(101, 0, 119);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-size: px;
+    border: none;
+}
+.dropdown{
+    position:relative;
+    display:inline-block;
+    width: 200px;
+    left: 0%;margin-left: 25%;
+    top: 0px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: blueviolet;
+    min-width: 150px;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+    left: 0%;margin-left: 10%;
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: darkred;
+
+}
+.dropdown:hover .dropbtn{
+    background-color: crimson;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.div{
+    background-color: yellow;
+    height: 350px;
+    width: 350px;
+    left: 0%;margin-left: 77%;
+    top: 0.4%; margin-top: -0.2%;
+}
+.div2{
+    background-color: purple;
+    height: 350px;
+    width: 350px;
+    top: 0%; margin-top: -23.3%;
+}
+.imagem{
+    margin-bottom: 0%;
+    margin-left: 35%;
+}
+.texto{
+    position: relative;
+    top: 0%;
+    left: 20%;
+}
+.texto2{
+    position: relative;
+    top: 0%;
+    left: 80%;
+}

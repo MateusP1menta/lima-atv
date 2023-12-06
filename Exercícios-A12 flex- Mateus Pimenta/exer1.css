@@ -1,0 +1,19 @@
+body{
+    background-color: gray;
+    text-align: center;
+    margin-left: 500px;
+}
+.title{
+    padding: 10px 10px 10px 10px;
+    border: outset 2px rgb(102, 102, 146);
+    width: 600px;
+    color: white;
+}
+.parágrafo{
+    border:dotted 2px rgb(255, 255, 255);
+    width: 620px;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 200px;
+    margin-top: 50px;
+}

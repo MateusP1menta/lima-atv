@@ -1,0 +1,141 @@
+body{
+  background-color: rgb(243, 160, 146);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orangered;
+  }
+  
+  li {
+    float: left;
+  }
+  li a,
+  .dropbtn {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: rgb(138, 138, 138);
+  }
+  li .dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none; 
+    position:absolute;
+    background-color: rgb(255, 0, 0);
+    min-width: 150px;
+    box-shadow: 0px 0px 16px black;
+    z-index: 1;
+    margin-top: -45px;
+  }
+  .dropdown-content a {
+    color: black;
+    position: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: rgb(110, 7, 7);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  body{
+    border: 10px solid rgb(211, 211, 211);
+    height: 860px;   
+  }
+  .id{
+    border: 3px solid rgb(212, 196, 196);
+  }
+  #btnvermelho{
+    background-color: rgb(255, 0, 0);
+  }
+  #btnverde{
+    background-color: rgb(0, 255, 0);
+  }
+  .div{
+    justify-content: center;
+    align-items: center;
+  }
+  .divv{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pesquisa{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+    margin-top: -7%;
+  }
+  
+  .divv2{
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    margin-top: -4%;
+  }
+  
+  .desenhos{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    border: solid black 5px;
+    border-color: black;
+    gap: 50px;
+  }
+  
+  .desenhos2{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    border: solid black 5px;
+    border-color: black;
+    gap: 50px;
+  }
+  #h2{
+    font-size: 50px;
+  }
+  #h3{
+    font-size: 20apx;
+  }
+    .div7{
+        width: 500px;
+        height: 400px;
+        background-color: lightgray;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+    .www{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .sss{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    input{
+      margin-top: 70px;
+    }
+    #h2{
+      font-size: 50px;
+    }
+    #h3{
+      font-size: 15px;
+    }

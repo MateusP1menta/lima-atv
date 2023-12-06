@@ -1,0 +1,29 @@
+body{
+    background-color: #c1ac99;
+    border: 10px double white;
+    background-size: cover;
+    height: 720px;
+
+}
+.title{
+    padding: 10px 10px 10px 10px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    margin-left: 400px;
+}
+.imagem{
+    margin-bottom: 0%;
+    margin-left: 10%;
+    padding-top: 0%;
+    height: 340px;
+}
+.p{
+    position: absolute;
+    border: 10px double white;
+    padding: 140px 20px;
+    margin-top:  -350px;
+    margin-left: 850px;
+    width: 400px;
+    color: white;
+}

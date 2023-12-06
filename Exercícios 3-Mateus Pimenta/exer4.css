@@ -1,0 +1,16 @@
+.title{
+    padding: 10px 10px 10px 10px;
+    width: 600px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 400px;
+}
+.quadrado{
+    position: fixed;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 30px 30px;
+    top: 5%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    left: 0%;
+}

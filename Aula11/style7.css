@@ -1,0 +1,52 @@
+h1.cabeçalho{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(224, 244, 0);
+    padding: 1px 1px 1px 1px;
+    border: double rgb(0, 0, 0);
+    position: fixed;
+    left: 0%;
+    top: 0%; margin-top:0%;
+    right: 0%; margin-right: 0%;
+}
+.vertical-menu{
+    width: 200px;
+    margin-top: 3%;
+}
+.vertical-menu a{
+    background-color: aquamarine;
+    color: black;
+    display: block;
+    pad: 12px;
+    text-decoration: none;
+}
+.vertical-menu a:hover{
+    background-color: cadetblue;
+}
+.vertical-menu a.active{
+    background-color: blanchedalmond;
+    color: darkgrey;
+}
+h1.conteúdo{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(118, 107, 129);
+    padding: 1px 1px 1px 1px;
+    border: double rgb(0, 0, 0);
+    position: fixed;
+    left: 5.3%;
+    top: 5.9%; margin-top:0%;
+    right: 0%; margin-right: 0%;
+    bottom: 0%; margin-bottom: 0%;
+}
+h1.rodapé{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(217, 12, 77);
+    padding: 1px 1px 1px 1px;
+    border: double rgb(0, 0, 0);
+    position: fixed;
+    left: 0%;
+    top: 0%; margin-top:46.1%;
+    right: 0%; margin-right: 0%;
+}
